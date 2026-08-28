@@ -50,7 +50,7 @@ export default function App() {
 
   const renderHome = () => (
     <div className="p-6 h-full flex flex-col">
-      <h1 className="text-3xl font-bold text-green-900 mb-8 text-center mt-8">Mi Plan Alimentario</h1>
+      <h1 className="text-3xl font-bold text-green-900 mb-8 text-center mt-8">Dieta para el gordo puto de Tobi</h1>
       <div className="grid grid-cols-1 gap-4 flex-grow">
         {categories.map((cat) => (
           <button
